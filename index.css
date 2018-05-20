@@ -1,0 +1,273 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-image: url(main.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  font-size: 12px;
+}
+
+.navbar {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+}
+
+.no-03 {
+  background-color: red;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+
+}
+#header {
+  margin-left: 70%;
+  margin-top : 60px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20%;
+  font-family: cursive;
+  color: white;
+  font-size: 2em;
+}
+
+
+#about {
+  width: 100%;
+  height:400px;
+  margin-top: 400px;
+}
+
+#anu{
+  margin-left: 70%;
+  margin-top: -90px;
+}
+
+
+#desc {
+  margin-left: 10%;
+  font-size: 1.3em;
+  font-family: monospace;
+  margin-top: -240px;
+  text-align:left;
+}
+
+
+#sekat {
+  width: 100%;
+  height: 21px;
+  background-color: rgb(247, 196, 15);
+  background-size: cover;
+  margin-top: -30px;
+}
+
+#motto{
+  width: 100%;
+  height: 300px;
+  background-color: rgb(29, 34, 41);
+}
+
+#desc0 {
+  font-size: 3em;
+  font-family:cursive;
+  text-align: center;
+  color: white;
+  margin-top: -240px;
+}
+
+#sekat1 {
+  width: 100%;
+  height: 300px;
+  background-color: rgb(238, 232, 206);
+  margin-top: 120px;
+}
+
+#out{
+  margin-top: -140px;
+  margin-left: 17%;
+  font-size: 4em;
+  font-family:monospace;
+}
+
+.input {
+  display: block;
+  margin-top: 20px;
+  margin-left: 60%;
+
+}
+#sekat2 {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(8, 7, 34);
+  margin-top: 20px;
+}
+
+
+form {
+  margin-top: -160px;
+
+}
+#footer {
+  text-align: center;
+  color: white;
+  font-family: monospace;
+  margin-top:-25px;
+}
+
+
+/* Ini media screen */
+
+@media screen and (max-width : 1320px) {
+
+  #anu{
+    margin-left: 70%;
+    margin-top: -20px;
+    width: 280px;
+    height: 280px;
+  }
+
+  #desc {
+    margin-top: -180px;
+    max-width: 590px;
+  }
+
+@media screen and (max-width : 1150px) {
+
+  #anu{
+    margin-left: 70%;
+    margin-top: 10px;
+    width: 250px;
+    height: 250px;
+  }
+
+  #desc {
+    margin-top: -160px;
+    max-width: 590px;
+  }
+
+  #nata{
+    margin-left: 832px;
+  }
+}
+
+@media screen and (max-width : 1000px){
+
+  #header {
+    margin-left: 34%;
+
+  }
+
+  #about{
+    height: 600px;
+  }
+
+  #desc {
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 20%;
+  }
+
+  #anu {
+    margin-left: 40%;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width : 840px) {
+  #desc {
+    margin-left: 27%;
+    font-size: 1.2em;
+    max-width: 360px;
+    margin-top: 40px;
+  }
+
+  #anu{
+    width: 170px;
+    height: 170px;
+    margin-top: 120px;
+
+  }
+}
+
+@media screen and (max-width : 755px) {
+
+  #desc0{
+    font-size: 2.5em;
+  }
+
+  #sekat1{
+    height: 500px;
+  }
+
+  #out{
+    margin-top: -390px;
+    text-align: left;
+    margin-left:  24px;
+  }
+
+  form{
+    margin-top: 90px;
+    margin-left: -140%;
+  }
+
+}
+@media screen and (max-width : 620px) {
+
+  #header {
+    margin-left: 24%
+  }
+
+  #anu {
+    margin-top: 170px;
+    margin-left: 30%;
+  }
+
+  #desc{
+    margin-left: 16%;
+  }
+
+}
+
+
+@media screen and (max-width : 460px) {
+
+  #desc0 {
+    font-size: 1.7em;
+  }
+
+  #anu {
+    margin-left: 35%;
+  }
+
+  #desc {
+    margin-left: 8%;
+  }
+
+  #header{
+    margin-left: 15%;
+  }
+}
+
+@media screen and (max-width : 376px) {
+  #desc {
+    font-size: 1em;
+    margin-left: 3%;
+  }
+
+  #anu {
+    margin-left: 28%;
+  }
+
+}
+
+@media screen and (max-width : 360px){
+  #header{
+    margin-left: 4%;
+  }
+}
